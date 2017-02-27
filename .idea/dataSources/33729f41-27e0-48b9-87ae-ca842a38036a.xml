@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="HQL_test_4@localhost">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="4.0">
+    <root id="1"/>
+    <schema id="2" parent="1" name="HQL_test_4">
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="3" parent="1" name="almat_db"/>
+    <schema id="4" parent="1" name="book_db"/>
+    <schema id="5" parent="1" name="book_db_1"/>
+    <schema id="6" parent="1" name="employee_db"/>
+    <schema id="7" parent="1" name="employee_db2"/>
+    <schema id="8" parent="1" name="hibernatetest1"/>
+    <schema id="9" parent="1" name="hibernatetestproject1"/>
+    <schema id="10" parent="1" name="hibernate_db1"/>
+    <schema id="11" parent="1" name="hibernate_db2"/>
+    <schema id="12" parent="1" name="hibernate_db3"/>
+    <schema id="13" parent="1" name="hibernate_db4"/>
+    <schema id="14" parent="1" name="hibernate_db6"/>
+    <schema id="15" parent="1" name="hibernate_student_db_1"/>
+    <schema id="16" parent="1" name="hibernate_test_1_project"/>
+    <schema id="17" parent="1" name="hibernate_test_db_1"/>
+    <schema id="18" parent="1" name="hibernate_test_db_2"/>
+    <schema id="19" parent="1" name="hibernate_test_db_3"/>
+    <schema id="20" parent="1" name="hibernate_test_db_4"/>
+    <schema id="21" parent="1" name="HQL_test_1"/>
+    <schema id="22" parent="1" name="HQL_test_2"/>
+    <schema id="23" parent="1" name="HQL_test_3"/>
+    <schema id="24" parent="1" name="information_schema"/>
+    <schema id="25" parent="1" name="JdbcTemplateProject1"/>
+    <schema id="26" parent="1" name="JdbcTemplateProject3"/>
+    <schema id="27" parent="1" name="JdbcTemplateProject4"/>
+    <schema id="28" parent="1" name="listener_test_db"/>
+    <schema id="29" parent="1" name="mysite_db"/>
+    <schema id="30" parent="1" name="mysql"/>
+    <schema id="31" parent="1" name="performance_schema"/>
+    <schema id="32" parent="1" name="springhibernate_db1"/>
+    <schema id="33" parent="1" name="springhibernate_db2"/>
+    <schema id="34" parent="1" name="springhibernate_db3"/>
+    <schema id="35" parent="1" name="stock_db"/>
+    <schema id="36" parent="1" name="studentdb"/>
+    <schema id="37" parent="1" name="student_db"/>
+    <schema id="38" parent="1" name="student_db_2"/>
+    <schema id="39" parent="1" name="student_test_db"/>
+    <schema id="40" parent="1" name="sys"/>
+    <schema id="41" parent="1" name="testdb"/>
+    <schema id="42" parent="1" name="testmodel_db"/>
+    <schema id="43" parent="1" name="userdb"/>
+    <schema id="44" parent="1" name="usersdb"/>
+    <schema id="45" parent="1" name="web_student_tracker"/>
+    <table id="46" parent="2" name="person"/>
+    <column id="47" parent="46" name="id">
+      <Position>1</Position>
+      <DataType>bigint(20)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="48" parent="46" name="city">
+      <Position>2</Position>
+      <DataType>varchar(200)|0</DataType>
+    </column>
+    <column id="49" parent="46" name="street">
+      <Position>3</Position>
+      <DataType>varchar(200)|0</DataType>
+    </column>
+    <column id="50" parent="46" name="zipcode">
+      <Position>4</Position>
+      <DataType>varchar(200)|0</DataType>
+    </column>
+    <column id="51" parent="46" name="name">
+      <Position>5</Position>
+      <DataType>varchar(200)|0</DataType>
+    </column>
+    <key id="52" parent="46" name="PRIMARY">
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+  </database-model>
+</dataSource>
