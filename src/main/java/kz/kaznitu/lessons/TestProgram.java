@@ -14,8 +14,9 @@ public class TestProgram {
         try{
             transaction.begin() ;
 
-            Address address = new Address("Сатпаев 22a", "Алматы", "060067") ;
-            Person person = new Person("Дәулет", address) ;
+            Address billindAddress = new Address("Сатпаев 22a", "Алматы", "060067") ;
+            Address homeAddress = new Address("Алмалы 18", "Алматы", "060054") ;
+            Person person = new Person("Дәулет", homeAddress, billindAddress) ;
 
             session.persist(person);
 

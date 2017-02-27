@@ -56,23 +56,35 @@
       <NotNull>1</NotNull>
       <SequenceIdentity>1</SequenceIdentity>
     </column>
-    <column id="48" parent="46" name="city">
+    <column id="48" parent="46" name="name">
       <Position>2</Position>
       <DataType>varchar(200)|0</DataType>
     </column>
-    <column id="49" parent="46" name="street">
+    <column id="49" parent="46" name="billing_city">
       <Position>3</Position>
-      <DataType>varchar(200)|0</DataType>
+      <DataType>varchar(255)|0</DataType>
     </column>
-    <column id="50" parent="46" name="zipcode">
+    <column id="50" parent="46" name="billing_street">
       <Position>4</Position>
-      <DataType>varchar(200)|0</DataType>
+      <DataType>varchar(255)|0</DataType>
     </column>
-    <column id="51" parent="46" name="name">
+    <column id="51" parent="46" name="billing_zipcode">
       <Position>5</Position>
-      <DataType>varchar(200)|0</DataType>
+      <DataType>varchar(255)|0</DataType>
     </column>
-    <key id="52" parent="46" name="PRIMARY">
+    <column id="52" parent="46" name="home_city">
+      <Position>6</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="53" parent="46" name="gome_street">
+      <Position>7</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <column id="54" parent="46" name="home_zipcode">
+      <Position>8</Position>
+      <DataType>varchar(255)|0</DataType>
+    </column>
+    <key id="55" parent="46" name="PRIMARY">
       <ColNames>id</ColNames>
       <Primary>1</Primary>
     </key>
